@@ -20,6 +20,7 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #555;
+  overflow-x: hidden;
 }
 
 .header {
@@ -30,14 +31,13 @@ body {
   height: 9.6rem;
   padding: 0 4.8rem;
   position: relative;
-  position: sticky;
-  top: 0px;
-  z-index: 100;
 }
 
 .logo {
   height: 2.2rem;
 }
+
+
 
 .navbar_list {
   align-items: center;
@@ -68,6 +68,35 @@ body {
 
 .navbar_list_item.navbar_list_item_btn:hover {
   background-color: #cf711f;
+}
+
+.menu-btn{
+  display: none;
+  border: none;
+  background: none;
+}
+
+.icon-mobile-nav{
+  height: 4.8rem;
+  width: 4.8rem;
+  color: #333;
+}
+
+.sticky .header{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 8rem;
+  padding-top: 0;
+  padding-bottom: 0;
+  background-color: rgba(255, 255, 255, 0.97);
+  z-index: 999;
+  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.03);
+}
+
+.sticky .main_section {
+  margin-top: 9.6rem;
 }
 
 .main_section {

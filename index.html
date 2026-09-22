@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="/assets/Images/favicon.png" />
+    <link rel="icon" href="./assets/Images/favicon.png" />
     <title>Omnifood — Never cook again!</title>
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="stylesheet" href="https://fonts.gstatic.com" />
@@ -24,14 +24,15 @@
       defer=""
       src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
     ></script>
+    <script src="./assets/script/script.js" defer></script>
   </head>
 
   <body>
     <header class="header" id="all">
       <a href="#"
-        ><img src="/assets/Images/omnifood-logo.png" alt="logo" class="logo"
+        ><img src="./assets/Images/omnifood-logo.png" alt="logo" class="logo"
       /></a>
-      <nav>
+      <nav class="navbar">
         <ul class="navbar_list">
           <li>
             <a href="#howitworks" class="navbar_list_item">How it works</a>
@@ -48,6 +49,15 @@
           </li>
         </ul>
       </nav>
+
+      <button class="menu-btn">
+        <ion-icon
+          class="icon-mobile-nav"
+          name="menu-outline"
+          role="img"
+          aria-label="menu outline"
+        ></ion-icon>
+      </button>
     </header>
 
     <main>
@@ -66,12 +76,12 @@
             <a href="#howitworks" class="btn btn2">Learn more ↓</a>
             <div class="delivered">
               <div class="delivered-imgs">
-                <img src="/assets/Images/customer-1.jpg" alt="customer img" />
-                <img src="/assets/Images/customer-2.jpg" alt="customer img" />
-                <img src="/assets/Images/customer-3.jpg" alt="customer img" />
-                <img src="/assets/Images/customer-4.jpg" alt="customer img" />
-                <img src="/assets/Images/customer-5.jpg" alt="customer img" />
-                <img src="/assets/Images/customer-6.jpg" alt="customer img" />
+                <img src="./assets/Images/customer-1.jpg" alt="customer img" />
+                <img src="./assets/Images/customer-2.jpg" alt="customer img" />
+                <img src="./assets/Images/customer-3.jpg" alt="customer img" />
+                <img src="./assets/Images/customer-4.jpg" alt="customer img" />
+                <img src="./assets/Images/customer-5.jpg" alt="customer img" />
+                <img src="./assets/Images/customer-6.jpg" alt="customer img" />
               </div>
               <p class="delivered-text">
                 <span>250,000+</span>
@@ -82,7 +92,7 @@
           <div class="main_image">
             <picture
               ><img
-                src="/assets/Images/hero.webp"
+                src="./assets/Images/hero.webp"
                 alt="Woman enjoying food, meals in storage container, and food bowls on a table"
             /></picture>
           </div>
@@ -93,17 +103,17 @@
         <div class="featured-container">
           <h2 class="feature-heading">AS FEATURED IN</h2>
           <div class="logos">
-            <img src="/assets/Images/techcrunch.png" alt="Techcrunch logo" />
+            <img src="./assets/Images/techcrunch.png" alt="Techcrunch logo" />
             <img
-              src="/assets/Images/business-insider.png"
+              src="./assets/Images/business-insider.png"
               alt="Business insider"
             />
             <img
-              src="/assets/Images/the-new-york-times.png"
+              src="./assets/Images/the-new-york-times.png"
               alt="The new york times"
             />
-            <img src="/assets/Images/forbes.png" alt="Forbes logo" />
-            <img src="/assets/Images/usa-today.png" alt="Usa today" />
+            <img src="./assets/Images/forbes.png" alt="Forbes logo" />
+            <img src="./assets/Images/usa-today.png" alt="Usa today" />
           </div>
         </div>
       </section>
@@ -126,14 +136,14 @@
           </div>
           <div class="img_box">
             <img
-              src="/assets/Images/app-screen-1.png"
+              src="./assets/Images/app-screen-1.png"
               class="phone_img"
               alt="iPhone app preferences selection screen"
             />
           </div>
           <div class="img_box">
             <img
-              src="/assets/Images/app-screen-2.png"
+              src="./assets/Images/app-screen-2.png"
               class="phone_img"
               alt="iPhone app meal approving plan screen"
             />
@@ -158,7 +168,7 @@
           </div>
           <div class="img_box">
             <img
-              src="/assets/Images/app-screen-3.png"
+              src="./assets/Images/app-screen-3.png"
               class="phone_img"
               alt="iPhone app delivery screen"
             />
@@ -175,7 +185,7 @@
         <div class="container grid_meals">
           <div class="meal">
             <img
-              src="/assets/Images/meal-1.jpg"
+              src="./assets/Images/meal-1.jpg"
               class="meal_img"
               alt="Japanese Gyozas"
             />
@@ -217,7 +227,7 @@
           </div>
           <div class="meal">
             <img
-              src="/assets/Images/meal-2.jpg"
+              src="./assets/Images/meal-2.jpg"
               class="meal_img"
               alt="Avocado Salad"
             />
@@ -359,7 +369,7 @@
               <span>
                 <img
                   class="testimonial-customer-img"
-                  src="/assets/Images/dave.jpg"
+                  src="./assets/Images/dave.jpg"
                   alt="Photo of customer"
                 />
                 <blockquote class="img-text">
@@ -371,7 +381,7 @@
               <span>
                 <img
                   class="testimonial-customer-img"
-                  src="/assets/Images/ben.jpg"
+                  src="./assets/Images/ben.jpg"
                   alt="Photo of customer"
                 />
                 <blockquote class="img-text">
@@ -383,7 +393,7 @@
               <span>
                 <img
                   class="testimonial-customer-img"
-                  src="/assets/Images/steve.jpg"
+                  src="./assets/Images/steve.jpg"
                   alt="Photo of customer"
                 />
                 <blockquote class="img-text">
@@ -396,7 +406,7 @@
               <span>
                 <img
                   class="testimonial-customer-img"
-                  src="/assets/Images/hannah.jpg"
+                  src="./assets/Images/hannah.jpg"
                   alt="Photo of customer"
                 />
                 <blockquote class="img-text">
@@ -412,83 +422,83 @@
         <div class="testimonial-img">
           <div class="testimonial-img-div">
             <img
-              src="/assets/Images/Teatimonial_images/gallery-1.jpg"
+              src="./assets/Images/Teatimonial_images/gallery-1.jpg"
               alt="Photo of food"
             />
           </div>
           <div class="testimonial-img-div">
             <img
-              src="/assets/Images/Teatimonial_images/gallery-2.jpg"
-              alt="Photo of food"
-            />
-          </div>
-
-          <div class="testimonial-img-div">
-            <img
-              src="/assets/Images/Teatimonial_images/gallery-3.jpg"
+              src="./assets/Images/Teatimonial_images/gallery-2.jpg"
               alt="Photo of food"
             />
           </div>
 
           <div class="testimonial-img-div">
             <img
-              src="/assets/Images/Teatimonial_images/gallery-4.jpg"
+              src="./assets/Images/Teatimonial_images/gallery-3.jpg"
               alt="Photo of food"
             />
           </div>
 
           <div class="testimonial-img-div">
             <img
-              src="/assets/Images/Teatimonial_images/gallery-5.jpg"
+              src="./assets/Images/Teatimonial_images/gallery-4.jpg"
               alt="Photo of food"
             />
           </div>
 
           <div class="testimonial-img-div">
             <img
-              src="/assets/Images/Teatimonial_images/gallery-6.jpg"
+              src="./assets/Images/Teatimonial_images/gallery-5.jpg"
               alt="Photo of food"
             />
           </div>
 
           <div class="testimonial-img-div">
             <img
-              src="/assets/Images/Teatimonial_images/gallery-7.jpg"
+              src="./assets/Images/Teatimonial_images/gallery-6.jpg"
               alt="Photo of food"
             />
           </div>
 
           <div class="testimonial-img-div">
             <img
-              src="/assets/Images/Teatimonial_images/gallery-8.jpg"
+              src="./assets/Images/Teatimonial_images/gallery-7.jpg"
               alt="Photo of food"
             />
           </div>
 
           <div class="testimonial-img-div">
             <img
-              src="/assets/Images/Teatimonial_images/gallery-9.jpg"
+              src="./assets/Images/Teatimonial_images/gallery-8.jpg"
               alt="Photo of food"
             />
           </div>
 
           <div class="testimonial-img-div">
             <img
-              src="/assets/Images/Teatimonial_images/gallery-10.jpg"
+              src="./assets/Images/Teatimonial_images/gallery-9.jpg"
               alt="Photo of food"
             />
           </div>
 
           <div class="testimonial-img-div">
             <img
-              src="/assets/Images/Teatimonial_images/gallery-11.jpg"
+              src="./assets/Images/Teatimonial_images/gallery-10.jpg"
               alt="Photo of food"
             />
           </div>
 
           <div class="testimonial-img-div">
             <img
-              src="/assets/Images/Teatimonial_images/gallery-12.jpg"
+              src="./assets/Images/Teatimonial_images/gallery-11.jpg"
+              alt="Photo of food"
+            />
+          </div>
+
+          <div class="testimonial-img-div">
+            <img
+              src="./assets/Images/Teatimonial_images/gallery-12.jpg"
               alt="Photo of food"
             />
           </div>
@@ -719,7 +729,7 @@
         <div class="footer-logo">
           <a class="footer-logo-a"
             ><img
-              src="/assets/Images/omnifood-logo.png"
+              src="./assets/Images/omnifood-logo.png"
               alt="logo"
               class="logo"
           /></a>
